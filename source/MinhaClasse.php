@@ -6,15 +6,17 @@ namespace Source;
 
 class MinhaClasse
 {
-    private $fsPhp;
+    public $fsPhp;
 
     /**
      * MinhaClasse constructor.
      * @param array $arrayInicial
      */
-    public function __construct(array $arrayInicial = [])
+    public function __construct(array $arrayInicial = []) //A variável $arrayInicial do tipo array e vazio é passada como parâmetro no método;
     {
-        $this->fsPhp = $arrayInicial; //Diz que a propriedade fsPhp recebe um array vazio ($arrayInicial=[]).
+        $this->fsPhp = $arrayInicial; 
+        //Diz que à propriedade fsPhp é atribuído o array $arrayInicial=[].
+        //À propriedade $fsphp é atribuida o valor que $arrayInicial tiver.
     }
 
     /**
@@ -24,6 +26,8 @@ class MinhaClasse
     public function getArray()
     {
         return $this->fsPhp;
+        //Quando o método getArray() for chamado no programa, ele retornará o valor contido em $fsPhp, que por enquanto está vazia (a variiável),
+        //pois $arrayInicial[] ainda está vazio.
     }
 
     public function setArray(array $novoArray)

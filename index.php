@@ -8,8 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.122.0">
-    <title>FSPHP</title>
-
+    <title>FSPHP - POO</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/footers/">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/jumbotrons/">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
@@ -113,8 +112,7 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item"><a class="nav-link active" aria-current="page"
                             href="http://88.198.104.148/index.php">HOME</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
                             aria-expanded="false">APACHE</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Instalação</a></li>
@@ -126,8 +124,7 @@
                             <li><a class="dropdown-item" href="#">Atribuindo permissões</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
                             aria-expanded="false">BOOTSTRAP</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item"
@@ -135,9 +132,7 @@
                                     with Bootstrap</a></li>
                         </ul>
                     </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
                             aria-expanded="false">MYSQL</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Instalação</a></li>
@@ -149,8 +144,6 @@
                             <li><a class="dropdown-item" href="#">Verificando a conexão com o SGBD</a></li>
                         </ul>
                     </li>
-
-
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
                             aria-expanded="false">PHP</a>
@@ -173,8 +166,7 @@
                         </ul>
                     </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
                             aria-expanded="false">GITHUB</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Get started with Github</a></li>
@@ -199,8 +191,59 @@
                             <li><a class="dropdown-item" href="#">SSH</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#">LINK</a></li>
-                    <li class="nav-item"><a class="nav-link disabled" href="#" aria-disabled="true">DISABLE</a></li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">FONTES</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://cdnjs.com/libraries/font-awesome"
+                                    target="_blank">font-awesome</a></li>
+                            <li><a class="dropdown-item" href="https://datatables.net/"
+                                    target="_blank">datatables.net</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://editor.datatables.net/examples/styling/bootstrap5.html"
+                                    target="_blank">editor datatables.net</a></li>
+                            <li><a class="dropdown-item" href="https://bootstrap-datepicker.readthedocs.io/en/latest/"
+                                    target="_blank">bootstrap-datepicker</a> </li>
+                            <li><a class="dropdown-item" href="https://validator.w3.org/" target="_blank">Validando seu
+                                    HTML</a></li>
+                            <li><a class="dropdown-item" href="https://cdnjs.com/libraries/jquery"
+                                    target="_blank">JQuery CDN</a></li>
+                            <li><a class="dropdown-item" href="https://cdnjs.com/libraries/jquery.mask"
+                                    target="_blank">JQuery-Mask-Imput</a></li>
+                            <li><a class="dropdown-item" href="https://devicon.dev/" target="_blank">Ícones</a></li>
+                            <li><a class="dropdown-item" href="https://getbootstrap.com/" target="_blank">Bootstrap
+                                    5.3</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item"
+                                    href="https://learn.microsoft.com/pt-br/windows/wsl/install">WSL2</a></li>
+                            <li><a class="dropdown-item" href="https://www.php.net/">PHP</a></li>
+                            <li><a class="dropdown-item" href="https://www.mysql.com/">MySQL</a></li>
+                            <li><a class="dropdown-item" href="https://www.wampserver.com/en/">WAMPP</a></li>
+                            <li><a class="dropdown-item" href="https://code.visualstudio.com/">VSCode</a></li>
+                            <li><a class="dropdown-item" href="https://www.w3schools.com/html/default.asp">HTML</a></li>
+                            <li><a class="dropdown-item" href="https://github.com/">GITHUB</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link" href="https://github.com/lucioweb/crud">README</a></li>
+                    <li class="nav-item"><a class="nav-link" href="script.php">SCRIPT</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">TUTORIAL EM VÍDEO</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/videoxampp.php">Instalação do XAMPP</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="/video.php">Criação do CRUD</a></li>
+                            <li><a class="dropdown-item" href="/video_bootstrap_datapicker.php">Bootstrap-datapicker</a>
+                            </li>
+                            <li><a class="dropdown-item" href="/video_crud.php">CRUD</a></li>
+                        </ul>
+                    </li>
+
+
+
+
                 </ul>
                 <form role="search">
                     <input class="form-control" type="search" placeholder="Search" aria-label="Search">

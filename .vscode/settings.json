@@ -1,0 +1,8 @@
+{
+    "phpserver.port": 8000,
+    "phpserver.browser": "",
+    "liveServer.settings.host": "localhost",
+    "livePreview.portNumber": 8000,
+    "livePreview.hostIP": "localhost",
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": ""
+}

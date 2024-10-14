@@ -4,7 +4,7 @@
 namespace Source;
 
 
-class MinhaClasse
+class FullStack
 {
     public $fsPhp;
 
@@ -14,8 +14,9 @@ class MinhaClasse
      */
     public function __construct(array $arrayInicial = []) //A variável $arrayInicial do tipo array e vazio é passada como parâmetro no método;
     {
-        $this->fsPhp = $arrayInicial; 
-        //Diz que à propriedade fsPhp é atribuído o array $arrayInicial=[].
+        $this->fsPhp = $arrayInicial;
+        //Inicializando a propriedade $fsphp.
+        //Diz também que à propriedade fsPhp é atribuída o array $arrayInicial=[].
         //À propriedade $fsphp é atribuida o valor que $arrayInicial tiver.
     }
 

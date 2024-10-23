@@ -12,7 +12,7 @@ class FullStack
      * MinhaClasse constructor.
      * @param array $arrayInicial
      */
-    public function __construct(array $arrayInicial = []) //A variável $arrayInicial do tipo array e vazio é passada como parâmetro no método;
+    public function __construct(array $arrayInicial = []) //A variável $arrayInicial do tipo array e vazio é passada como argumento no método;
     {
         $this->fsPhp = $arrayInicial;
         //Inicializando a propriedade $fsphp.

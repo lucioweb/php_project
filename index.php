@@ -13,6 +13,7 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/jumbotrons/">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
 
     <style>
     .bd-placeholder-img {
@@ -102,7 +103,7 @@
     <!-- Responsive navbar-->
     <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary rounded" aria-label="Eleventh navbar example">
         <div class="container-fluid">
-            <a class="navbar-brand ms-5 me-5" href="#">FSPHP</a>
+            <a class="navbar-brand ms-5 me-5" href="#">FULLSTACK</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09"
                 aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

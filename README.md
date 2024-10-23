@@ -1,4 +1,4 @@
-# phpoo
+# PHPOO
 Projeto de estudo com PHP Orientado a Objetos.
 ## EDITOR DE CÓDIGO
 VSCode
